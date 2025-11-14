@@ -1,0 +1,132 @@
+<!--
+INSTRUCTIONS:
+- To customize, edit the text, links, and avatar in this file.
+- To use this site at cozy.xyz, point your domain to your GitHub Pages repo.
+- Hosted at: https://github.com/11Cozy/cozy.xyz
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>cozy.xyz</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="cozy.xyz — Just a cozy personal homepage.">
+  <link rel="icon" href="https://fav.farm/☁️" type="image/x-icon">
+  <style>
+    html, body {
+      margin: 0; padding: 0;
+      height: 100%; width: 100%;
+      background: #121212;
+      color: #fff;
+      font-family: 'Inter', Arial, sans-serif;
+      font-weight: 400;
+      letter-spacing: -.01em;
+      min-height: 100%;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #191919 0%, #232323 100%);
+    }
+    .card {
+      background: #1a1a1a;
+      border: 1.5px solid #333;
+      border-radius: 16px;
+      box-shadow: 0 6px 40px rgba(0,0,0,0.47);
+      max-width: 390px;
+      width: 94vw;
+      padding: 2.2rem 1.8rem 1.8rem 1.8rem;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    .avatar {
+      width: 84px;
+      height: 84px;
+      border-radius: 50%;
+      background: #2d2d2d;
+      border: 2.5px solid #313131;
+      box-shadow: 0 2px 14px rgba(0,0,0,0.26);
+      margin-bottom: 1.3rem;
+      object-fit: cover;
+    }
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 700;
+      letter-spacing: -.025em;
+      margin: 0 0 0.5em 0;
+      background: linear-gradient(90deg, #fff 65%, #aaa 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .bio {
+      color: #bbb;
+      margin: 0 0 2em 0;
+      font-size: 1.02rem;
+      font-weight: 400;
+      line-height: 1.5em;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 1.05em;
+      width: 100%;
+      margin-bottom: 2.2em;
+    }
+    .links a {
+      display: block;
+      padding: 0.92em 1em;
+      border-radius: 7px;
+      background: #171717;
+      color: #fff;
+      border: 1px solid #282828;
+      font-weight: 500;
+      font-size: 1.01em;
+      text-decoration: none;
+      transition: all .13s cubic-bezier(.86,.32,.42,1.04);
+      box-shadow: 0 1.5px 7px rgba(0,0,0,0.12);
+    }
+    .links a:hover, .links a:focus {
+      background: #232323;
+      color: #eaeaea;
+      border-color: #444;
+    }
+    .footer {
+      color: #888;
+      font-size: 0.97em;
+      margin-top: 1.4em;
+      letter-spacing: .02em;
+    }
+    @media (max-width: 600px) {
+      .card { padding: 1.4em .5em 1em .5em; }
+      h1 { font-size: 1.42em; }
+      .bio { font-size: 0.99em; }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <!-- Change the avatar link below if you wish (for now a cozy placeholder cloud) -->
+    <img class="avatar" src="https://api.dicebear.com/7.x/shapes/svg?seed=cloud" alt="Avatar">
+    <h1>cozy.xyz</h1>
+    <div class="bio">
+      A cozy personal home.<br>
+      No clutter, just links.<br>
+      (Edit <b>index.html</b> to update!)
+    </div>
+    <nav class="links">
+      <!-- You can add, remove, or change links here -->
+      <a href="https://github.com/11Cozy" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:your@email.xyz">Email</a>
+      <a href="https://twitter.com/" target="_blank" rel="noopener">Twitter/X</a>
+    </nav>
+    <div class="footer">
+      &copy; 2025 <b>cozy.xyz</b> &mdash; <a href="https://github.com/11Cozy/cozy.xyz" style="color: #aaa; text-decoration:underline;" target="_blank" rel="noopener">source</a>
+    </div>
+  </main>
+</body>
+</html>
